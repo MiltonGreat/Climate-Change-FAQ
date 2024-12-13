@@ -24,17 +24,17 @@ The dataset is structured sequentially, ensuring that each question is followed 
 ### Project Workflow
 
 ##### Dataset Preparation:
-        Dataset is extracted and preprocessed, cleaning text and splitting it into questions and answers.
+- Dataset is extracted and preprocessed, cleaning text and splitting it into questions and answers.
 
 ##### Training:
-        Fine-tuning the DialoGPT model on the dataset.
-        Padding and attention masking are applied to ensure effective model training.
+- Fine-tuning the DialoGPT model on the dataset.
+- Padding and attention masking are applied to ensure effective model training.
 
 ##### Evaluation:
-        Evaluates the chatbot's performance using BLEU scores.
+- Evaluates the chatbot's performance using BLEU scores.
 ##### Deployment:
-        Saves the model and tokenizer in a reusable format.
-        Exports the model as a Hugging Face pipeline for easy deployment.
+- Saves the model and tokenizer in a reusable format.
+- Exports the model as a Hugging Face pipeline for easy deployment.
 
 ### Results
 
