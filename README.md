@@ -8,7 +8,7 @@ This project focuses on building a conversational chatbot trained on a dataset a
 
 The dataset was designed to build a chatbot that can provide meaningful discussions about climate change. Each entry contains:
 
-- Source: URL or origin of the FAQ.f
+- Source: URL or origin of the FAQ.
 - faq: The question or answer related to climate change.
 - text_type: A tag indicating whether the entry is a question (q) or an answer (a).
 
